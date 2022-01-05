@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    background-position: top;
+    background-size: contain;
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+}
+
+.card-img img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0;
+}
+
+.card-h1 h1{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.card-p p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.annual-plan{
+    width: 80%;
+    height: 90px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.annual-plan h3{
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan p{
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    color: hsl(224, 23%, 55%);
+}
+
+.card-changeprice p{
+    color: hsl(256, 75%, 52%);
+    text-decoration: underline;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 245px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-changeprice p:hover{
+    color: #6819b3;
+    cursor: pointer;
+}
+
+.icon-music{
+    padding: 20px;
+}
+
+.card-payment{
+    background-color: #3829e0;
+    width: 80%;
+    height: 45px;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.15), 15px 15px 30px rgba(56, 41, 224, 0.15);
+          box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.15), 15px 15px 30px rgba(56, 41, 224, 0.15);
+}
+
+.card-payment:hover{
+    background-color: #5129e0;
+    cursor: pointer;
+}
+ 
+.card-cancel{
+    display: flex;
+    justify-content: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+}
